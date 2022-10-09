@@ -167,3 +167,123 @@
 // }
 
 // ==================================================
+// ============= table program
+
+// let num = +prompt(`Enter Number For Table Print`);
+// for(i = 1; i <=10; i++){
+//     document.write(`${num} X ${i} = ${num * i} <br />`)
+// }
+// document.write(`Good Luck Pakeeza eman !!!!`)
+
+// ============= triangle program
+
+// for (let i = 1; i <= 8; i++) {
+//   console.log(i);
+//   for (let j = 1; j <= i; j++) {
+//     document.write("@ &nbsp");
+//   }
+//   document.write(`<br />`);
+// }
+
+
+
+// ---------------------------------- Assigment 3 -------------------------- 
+
+// var edu = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M.Phil', 'PhD'];
+// console.log(edu)
+
+// ---------------------------------------------------------------------- 
+
+// var studentds = ['Danish','Ali','Ayesha'];
+// var score = [350.2,200,500];
+// var total_marks = 500;
+// for(let i = 0; i<score.length; i++){
+//     // console.log((score[i]/total_marks)*100)
+//     console.log(`Score of ${studentds[i]} is ${score[i]}. Percentage: ${(score[i]/total_marks)*100}%`)
+// }
+
+// ---------------------------------------------------------------------- 
+
+// var colours = [];
+// colr1 = prompt('which colour you want to add at begining of an array');
+// colours.unshift(colr1);
+// colr2 = prompt('which colour you want to add at End of an array');
+// colrpos = +prompt('which Position you want to add colour');
+// colrposcolor = prompt('enter colour');
+
+
+// colours.push(colr2);
+// colours.splice(0,0,"red",'blue')
+// console.log(colours)
+// colours.shift()
+// console.log(colours)
+// colours.pop();
+// console.log(colours)
+// colours.splice(colrpos,0,colrposcolor);
+// console.log(colours)
+
+// ---------------------------------------------------------------------- 
+// let cities = ["karachi","Lahore","Islamabad","peshawar"];
+// let selectedCity = cities.slice(2,4);
+// console.log(cities)
+// console.log(selectedCity)
+
+// var arr = [1,1,2,3,4,3];
+// console.log(arr)
+// var newArr = [...new Set(arr)];
+// console.log(newArr)
+
+// ---------------------------------------------------------------------- 
+
+// var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
+// var o = ["st","nd","rd","th"];
+// for(let i =0; i<aCities.length; i++){
+//     console.log(`${i+1}${o[i]} choice is ${aCities[i]}`)
+// }
+
+// ---------------------------------------------------------------------- 
+
+// var a = [4,9,5];
+// var b = [9,4,9,8,4]
+
+// const oneArray = () =>{
+//     let newArr = [...a , ...b]
+//     return [...new Set(newArr)];
+// }
+
+
+// console.log(oneArray().sort())
+
+// ---------------------------------------------------------------------- 
+// let num = []
+// for(let i = 1; i<=15; i++){
+// num.push(i);
+// }
+// console.log(`Counting : ` ,num)
+// console.log(`Counting : ` ,num.reverse())
+// for(let i = 0; i<num.length; i++){
+//     if(num[i] % 2 == 0){
+//         console.log(`Even Numbers`,num[i])
+        
+//     }
+//     else if(num[i] % 2 != 0){
+//         console.log(`Odd Number `,num[i])
+//     }
+// }
+
+// ---------------------------------------------------------------------- 
+
+// A = [24, 53, 78, 91, 12];
+// console.log(A)
+// console.log(Math.max(...A))
+// console.log(Math.min(...A))
+
+
+// ---------------------------------------------------------------------- 
+
+
+// A = [20,53,78,4,91,12];
+// parseInt(A);
+// let b = A.sort()
+// console.log(b)
+
